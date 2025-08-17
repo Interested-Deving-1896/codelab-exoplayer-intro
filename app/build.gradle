@@ -2,12 +2,12 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdk 34
+    compileSdk 36
 
     defaultConfig {
         applicationId "com.example.exoplayercodelab"
         minSdkVersion 21
-        targetSdkVersion 34
+        targetSdkVersion 36
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -28,6 +28,6 @@ android {
 
 dependencies {
     // Switch out the code lab step to jump to different points in the codelab
-    implementation project(':exoplayer-codelab-00')
+    implementation project(':exoplayer-codelab-04')
     implementation 'androidx.multidex:multidex:2.0.1'
 }
